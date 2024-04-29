@@ -1,6 +1,6 @@
 # Merging Into main locally 💻
 
-In this activity, you will practise merging local changes into `main`. This activity must be completed **after** the `pull` activity; it cannot stand alone. 
+In this activity, you will practise merging local changes into `main`.
 **⚠️ It is imperative that before doing a merge locally, you do a pull, so you are actually merging on the updated main branch.⚠️**
 
 ## Instructions
