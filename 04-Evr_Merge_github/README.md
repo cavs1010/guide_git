@@ -1,7 +1,7 @@
 # A Basic PR Workflow
 
-In this activity, you will practise pushing local branches to GitHub, opening pull requests for those branches, and reviewing submitted code.This activity must be completed **after** the `pull` activity; it cannot stand alone. 
-**⚠️ It is imperative that before doing a merge locally, you do a pull, so you are actually merging on the updated main branch.⚠️**
+In this activity, you will practise pushing local branches to GitHub, opening pull requests for those branches, and reviewing submitted code. 
+
 
 ## Instructions
 
@@ -25,7 +25,7 @@ In this activity, you will practise pushing local branches to GitHub, opening pu
 
   >* Next, find and click the menu tab labeled **Pull Requests** near the top of the repository.
 
-7. Click one of your teammates' pull requests.
+6. Click one of your teammates' pull requests.
 
   >* Explore the pull request. In particular, explore the **Files Changed** tab.
 
@@ -33,10 +33,13 @@ In this activity, you will practise pushing local branches to GitHub, opening pu
 
   >* Then, approve and merge it, using the GUI provided in the browser.
 
-8. Make sure you are on the main branch, and do a final pull, so you have the most updated file. `git checkout main` ➡️ `git pull`
+8. In your local computer, make sure you are on the main branch, and do a final pull, so you have the most updated file. `git checkout main` ➡️ `git pull`
 
 **⚠️ Now that ther merge has been done, you can delete those extras branches in your local repository and in github**
-* Discuss the advantages and disadvantages of this PR workflow; will your team use this approach to manage projects?
+
+Delete in local computer: `git branch -d <branch name>`
+
+Delete in Github: `git push origin -d <branch name>`
 
 - - -
 
