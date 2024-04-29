@@ -5,9 +5,9 @@ In this activity, you will practise merging local changes into `main`.
 
 ## Instructions
 
-* After pulling changes from GitHub, each team member should checkout `main`. 🚨`git checkout main`
+1. After pulling changes from GitHub, each team member should checkout `main`. 🚨`git checkout main`
 
-* Next, each team member should merge the branch that they’ve created and named into `main`. 🚨 `git merge <name>/branching_exercise`
+2. Next, each team member should merge the branch that they’ve created and named into `main`. 🚨 `git merge <name>/branching_exercise`
 
   * After merging, each team member should push their changes to GitHub. 🚨`git push origin`. Try to go one by one.
 
@@ -15,7 +15,9 @@ In this activity, you will practise merging local changes into `main`.
 
   * Take a moment to discuss why this is necessary.
 
-* Once everyone has pushed their changes to GitHub, each team member should pull the repository. 🚨`git pull`
+3. Once everyone has pushed their changes to GitHub, each team member should pull the repository. 🚨`git pull`
+
+4. As a good practice and in order to avoid clutter, delete the branch that you were working on. 🚨`git branch -d <name>/branching_exercise`
 
 * After pulling, discuss newly added files with your teammates.
 
