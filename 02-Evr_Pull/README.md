@@ -24,13 +24,12 @@ In this activity, you will practise pushing to and pulling from branches on GitH
 
 3. Next, each team member should checkout the `main` branch. 🚨 `git checkout main`
 
-4. While on `main`, everyone should pull changes from GitHub.
-🚨 `git pull`
+4. While on `main`, everyone should create a new branch with the name of the branch you want to check 🚨 `git checkout -b <name of your colleague>/branching_exercise`
 
-5. After pulling from GitHub, explore what's new (what teammates have added, etc.).
+5. At the moment, this branch is empty, so you need to pull the branch of your colleague into your computer. 🚨 `git pull origin <name of your colleague>/branching_exercise`
 
-6. Try checking out a team member's branch: 🚨`git checkout <team_member_name>/branching_exercise`. 
-⚠️ **Remember that branches from other people will not always show up in vscode after pulling**
+6. After pulling from GitHub, explore what's new (what teammates have added, etc.).
+
 
 - - -
 
